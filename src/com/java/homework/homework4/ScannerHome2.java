@@ -21,10 +21,12 @@ public class ScannerHome2 {
         //!equals() -> !maritalStatus.equals("married");
 
 
-        boolean info = age > 25 && creditScore > 700 && maritalStatus.equals("married");
-        boolean info1 = age > 25 && creditScore > 700 && maritalStatus.equalsIgnoreCase("married");
-        System.out.println("info" + info);
-        System.out.println("info1" + info1);
+        boolean info = age > 25 || creditScore > 700 || maritalStatus.equals("married");
+        //boolean info1 = age > 25 && creditScore > 700 && maritalStatus.equalsIgnoreCase("married");
+        System.out.println("result: " + info);
+
+
+
 
 
     }

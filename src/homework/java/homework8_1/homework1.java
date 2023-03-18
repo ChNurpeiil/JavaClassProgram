@@ -1,8 +1,10 @@
-package com.java.homework8;
+package homework.java.homework8;
 
-import javax.swing.*;
 import java.util.Scanner;
 
+/**
+ * 
+ */
 public class homework1  {
     public static void main(String[] args) {
         System.out.println("1.Main Course");

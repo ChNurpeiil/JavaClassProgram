@@ -1,6 +1,6 @@
-package com.java.homework;
+package homework.java.homework4;
 
-public class Homework04 {
+public class hw001 {
     public static void main(String[] args) {
         //Login Functionality
 //Write a logic which would tell the user if logged in or not
@@ -15,11 +15,7 @@ public class Homework04 {
         String password = "infinityLoop1";
         String loginLocation = "california";
 
-        boolean Login = username == "steve@apple.com" && password =="infinityLoop1"&& loginLocation =="california";
+        boolean Login = username == "steve@apple.com" || password =="infinityLoop1"|| loginLocation =="california";
         System.out.println(Login);
-
-
-
-
     }
 }

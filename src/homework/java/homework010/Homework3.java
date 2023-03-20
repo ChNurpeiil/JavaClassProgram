@@ -1,8 +1,11 @@
-package homework.java.homework8;
+package homework.java.homework8_1;
 
 import java.util.Scanner;
+/*
 
-public class homework3 {
+ */
+
+public class Homework3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter how much you want to loan:");

@@ -1,11 +1,9 @@
-package homework.java.homework8;
+package homework.java.homework8_1;
 
 import java.util.Scanner;
 
-/**
- * 
- */
-public class homework1  {
+
+public class Homework1 {
     public static void main(String[] args) {
         System.out.println("1.Main Course");
         System.out.println("2.Appetizer");

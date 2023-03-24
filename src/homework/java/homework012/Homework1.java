@@ -1,8 +1,9 @@
-package com.java.homework.homework10;
+package homework.java.homework10;
 
 import java.util.Scanner;
 
-public class homework1 {
+
+public class Homework1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter your height in meters : ");

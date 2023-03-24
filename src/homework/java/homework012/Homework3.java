@@ -1,8 +1,8 @@
-package com.java.homework.homework10;
+package homework.java.homework10;
 
 import java.util.Scanner;
 
-public class homework3 {
+public class Homework3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Are you member of a loyalty program? (true/ false)? ");

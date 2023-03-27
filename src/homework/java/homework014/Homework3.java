@@ -1,4 +1,4 @@
-package com.java.homework.homework12;
+package homework.java.homework014;
 
 import java.util.Scanner;
 
@@ -20,4 +20,6 @@ public class homework12_3 {
         String words = str.substring(0 , str.length()-2) + str.charAt(str.length()-1) + str.charAt(str.length()-2);
         return words;
     }
+
+
 }

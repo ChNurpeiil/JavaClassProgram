@@ -1,4 +1,4 @@
-package com.java.homework.homework12;
+package homework.java.homework12;
 
 import java.util.Scanner;
 
@@ -21,6 +21,7 @@ public class homework12_2 {
 
     }
     public static String last2chars (String str){
+
         str = str.substring(str.length()-2, str.length());
         return str+str+str;
     }

@@ -1,4 +1,4 @@
-package homework.java.homework13;
+package homework.java.homework13class13;
 
 public class endsWith {
     public static void main(String[] args) {

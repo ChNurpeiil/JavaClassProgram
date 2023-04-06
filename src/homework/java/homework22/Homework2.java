@@ -1,2 +1,2 @@
-package homework.java.homework22;public class homework2 {
+package homework.java.homework22;public class Homework2 {
 }

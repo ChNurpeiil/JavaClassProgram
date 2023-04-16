@@ -1,4 +1,4 @@
-package com.java.class27;
+package com.java.class26;
 
 public class BankNew {
     double balance;

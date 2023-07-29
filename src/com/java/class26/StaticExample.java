@@ -1,8 +1,9 @@
-package com.java.class27;
+package com.java.class26;
 class  Car {
-    static int price;
+     static int price;
 
     Car(){
+
         price++;
     }
 
@@ -10,10 +11,15 @@ class  Car {
 public class StaticExample {
     public static void main(String[] args) {
         Car audi = new Car();
-        Car bmw = new Car();
-        Car honda = new Car();
         System.out.println(audi.price);
+
+        Car bmw = new Car();
         System.out.println(bmw.price);
+        Car honda = new Car();
+
         System.out.println(honda.price);
+
+
+
     }
 }

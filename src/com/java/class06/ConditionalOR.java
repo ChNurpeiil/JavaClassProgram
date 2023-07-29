@@ -8,7 +8,7 @@ public class ConditionalOR {
 
         //ex: i want to give discounts to multiple group of people
         // if you are older than 60
-        //if you are yonuger than 8
+        //if you are younger than 8
 
         int age = 25;
 
@@ -22,19 +22,22 @@ public class ConditionalOR {
 
         int currentTime=13;
 
-        // drink coffe should be if current time is 6-11.
-        boolean drinrCoffee = currentTime <= 6 || currentTime <= 11;
-        System.out.println(drinrCoffee);
-        // tell me when I can stsrt to relax
-        // when you completed 5  or more java exercises
-        // or when you recorded 2 soft-skills videos
+        // drink coffee should be if current time is 6-11.
+        boolean drinkCoffee = currentTime <= 6 || currentTime <= 11;
+        System.out.println(drinkCoffee);
 
-        int howManyJavaExerccises = 3;
-        int howManySoftskillsVideos= 2;
-        boolean canIrelaxNow = howManyJavaExerccises <= 5 && howManySoftskillsVideos ==2;
-        System.out.println(canIrelaxNow);
+        // tell me when I can start to relax
+        // when you completed 5  or more java exercises
+        // or when you recorded 2 or more soft-skills videos
+
+        int howManyJavaExercises = 3;
+        int howManySoftSkillsVideos= 2;
+        boolean canIRelaxNow = howManyJavaExercises >= 5 && howManySoftSkillsVideos >=2;
+        System.out.println(canIRelaxNow);
 
         //////
+        //int any comparison you have expectedValue(comes from requiments
+        //actualValue (comes from users)
 
         //Banking industry application;
         // when should the bank account be blocked?
@@ -46,18 +49,28 @@ public class ConditionalOR {
         double transactionAmount = 3400.0;
         String location0fTransaction = "USA"; // ==, !=
 
-        boolean block =number0fLoginAttempts >= 4 || transactionAmount >= 5000 || location0fTransaction == "USA";
+        boolean block =number0fLoginAttempts >= 3 || transactionAmount >= 3000 || location0fTransaction != "USA";
         //black =false;
         System.out.println(block);
 
-        ////
+        /// /
         // you store text in a String data type
         //you can only compare strings with ==, !=
-        // you can not do >, <, <==
+        // you can not do >(more), <(less), <=, >=
 
 
+        /*Homework
+        login Functionality
+        Write a logic which would tell the user if logged in or not
+        you have a password
+        you loginLocation
 
+        in order to be logged your userName should match steve@apple.com
+        and your password should e infinityLoop1
+        and you location should be california
 
+        */
+        boolean logIn = true;
     }
 
 }

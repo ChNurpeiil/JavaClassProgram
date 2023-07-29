@@ -1,16 +1,14 @@
-package com.java.class113;
-
-import javax.swing.plaf.synth.SynthOptionPaneUI;
+package com.java.class13;
 
 public class StringPractice {
     public static void main(String[] args) {
-        //
+        //How to concatenate a String
         //
         String str = "Hello";
         String str2 = "DevX";
-        //
-        //
-        //
+        //I can use + sign with Strings
+        //it basically means I want to append one String
+        //to another
         String str3 = str + str2;
         System.out.println(str3);
 
@@ -35,7 +33,8 @@ public class StringPractice {
 
         String str9 = 42 + 10 + "DevX";
         System.out.println(str9);
-
+        //because when in it looks at it both sides are numbers.
+        // Okay, then it means I'm just gonna do the math
         String str10 = "Hello" + 42 + 10 + "DevX";
         System.out.println(str10);
 

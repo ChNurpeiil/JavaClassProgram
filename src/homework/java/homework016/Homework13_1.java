@@ -1,6 +1,6 @@
-package homework.java.homework_13;
+package homework.java.homework016;
 
-public class homework13_1 {
+public class Homework13_1 {
     public static void main(String[] args) {
         int number = 0;
         while (number <= 20){

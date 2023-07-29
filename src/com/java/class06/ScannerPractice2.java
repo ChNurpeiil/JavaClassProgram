@@ -3,19 +3,21 @@ package com.java.class06;
 import java.util.Scanner;
 
 public class ScannerPractice2 {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         //nexInt(), nexLine(), nexBoolean(),  --> they are all
         //methods
-        //all mentids return a result. make sure you know what data type y
-        //the mentod returs
+        //all methods return a result. make sure you know what data type y
+        //the method returns
 
-        //
-        //
+        //before we ask for user input we should tell th user
+        //what  type of info we want from them
         System.out.println("Please Enter your age and hit Enter");
         int age = input.nextInt();
         System.out.println("Your age is"+ age);
+
 
         System.out.println("Please enter your credit score between 0-820 ");
         int creditScore = input.nextInt();
@@ -25,9 +27,20 @@ public class ScannerPractice2 {
         //married, single
         //true, false
 
-        System.out.println("ask a user their marital status" );
+
+//        System.out.println("Please enter your marital status. Write true if married false if single  ");
+//        boolean isMarried = input.nextBoolean();
+//        System.out.println("is married? " +isMarried);
+
+        System.out.println("Please enter your marital status. Write married or single  ");
         String maritalStatus = input.next();
-        System.out.println("is married" );
+        System.out.println(maritalStatus);
+
+        //input. next() -> takes only one word (the text until the first space)
+        //input.nextLine() -> takes full line of text
+
+
+
     }
 
 

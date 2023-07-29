@@ -1,8 +1,8 @@
-package homework.java.homework_13;
+package homework.java.homework016;
 
 import java.util.Scanner;
 
-public class homework13_3 {
+public class Homework13_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your number: ");

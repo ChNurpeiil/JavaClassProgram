@@ -1,6 +1,6 @@
-package com.java.class26;
+package com.java.class25;
 
-public class task2 {
+public class Task2 {
     public static void main(String[] args) {
         int a[] = {0, 1 , 2, 2, 0, 3 };
 

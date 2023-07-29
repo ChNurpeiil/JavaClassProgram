@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class CreaterSalaryIfElsePractice {
     public static void main(String[] args) {
-        /*Write a program to get the salaries of two-person and print the name of the person that has a greater salary
+        /*Write a program to get the salaries of two-person
+        and print the name of the person that has a greater salary
          * Question Type: Write Code.
      * Test Data:
      * Example 1
@@ -22,7 +23,7 @@ public class CreaterSalaryIfElsePractice {
         Scanner input = new Scanner(System.in);
         System.out.println("Aman salary");
         int person1 =  input.nextInt();
-        System.out.println("Alfiya salary");
+        System.out.println("Alfiyat salary");
         int person2 = input.nextInt();
         if (person1 > person2){
             System.out.println(person1);

@@ -1,4 +1,4 @@
-package com.java.homework14;
+package com.java.class14;
 
 public class CharAt {
     //charAt(int i ) --> return  a character at ith index
@@ -7,7 +7,7 @@ public class CharAt {
         String str = "wedevx.co";
         System.out.println(str.charAt(1));//e
         System.out.println(str.charAt(0));//w
-        System.out.println(str.charAt(5));//w
+        System.out.println(str.charAt(5));//x
         System.out.println(str.charAt(6));//.
 
         String str2 = "hello World";
@@ -22,5 +22,5 @@ public class CharAt {
 
 
     }
-    //create a method that takes a String and return the last character
+
 }

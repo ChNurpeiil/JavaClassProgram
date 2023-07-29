@@ -1,8 +1,8 @@
-package homework.java.homework11;
+package homework.java.homework013;
 
 import java.util.Scanner;
 
-public class homework1 {
+public class Homework1 {
 
 
     //As a user, I want to know if a year is a leap year,
@@ -16,10 +16,14 @@ public class homework1 {
         Scanner sc = new Scanner(System.in);
         System.out.println(" Please enter the year : ");
         int year = sc.nextInt();
+
+
         System.out.println(leapYears(year));
+
     }
-    public static boolean leapYears (int yaer){
-        if(yaer % 400 == 0 || yaer % 4 == 0  && yaer % 100 != 0){
+
+    public static boolean leapYears (int year){
+        if(year % 400 == 0 || year % 4 == 0  && year % 100 != 0){
             return true;
         }
         else{

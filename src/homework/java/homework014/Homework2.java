@@ -1,8 +1,8 @@
-package homework.java.homework12;
+package homework.java.homework014;
 
 import java.util.Scanner;
 
-public class homework12_2 {
+public class Homework2 {
     public static void main(String[] args) {
       //Write a method that takes a string
         // returns a new string made of 3 copies of

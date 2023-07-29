@@ -1,4 +1,4 @@
-package com.java.homework.homework21;
+package homework.java.homework21;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
 //Example
 //Input - Welcome to Java Class
 //Output - Num of vowels=7
-public class homework1 {
+public class Homework1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your string: ");

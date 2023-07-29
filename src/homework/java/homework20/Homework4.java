@@ -1,8 +1,8 @@
-package com.java.homework.homework20;
+package homework.java.homework20;
 
 import java.util.Scanner;
 
-public class homework4 {
+public class Homework4 {
     public static void main(String[] args) {
 // Write a program to print the greatest digit from the given number
 //Example1

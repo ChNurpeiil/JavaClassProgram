@@ -1,4 +1,4 @@
-package com.java.homework18;
+package com.java.class18;
 
 public class practice {
     public static void main(String[] args) {

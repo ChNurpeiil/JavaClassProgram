@@ -1,8 +1,8 @@
-package com.java.homework.homework20;
+package homework.java.homework20;
 
 import java.util.Scanner;
 
-public class homework5 {
+public class Homework5 {
     public static void main(String[] args) {
 //Write a program to print the reverse of the given number
 //Example1

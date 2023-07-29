@@ -1,16 +1,19 @@
-package com.java.homework14;
+package com.java.class14;
 
 public class StringDotLength {
     //str.length() -> return the number of characters in a String
+    //return int numbers
     public static void main(String[] args) {
         String str = "wedevx.co";
-        System.out.println();
+        System.out.println(str.length());
 
-        String str2 = "Hello World";
+        String str2 = "Hello World!";
         System.out.println(str2.length());
 
         String str3 = "United States of America";
         System.out.println(str3.length());
+
+
         String str4= "Canada";
         String str5 = "Mexico";
         String str6 = "Cuba";

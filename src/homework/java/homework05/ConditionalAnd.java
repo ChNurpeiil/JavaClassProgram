@@ -1,4 +1,4 @@
-package homework.java.homework5;
+package homework.java.homework05;
 
 public class ConditionalAnd {
     /* Homework

@@ -32,6 +32,31 @@ public class CoditionalAnd {
         giveNurpeiilCertificate = nurpeiilGPA> 5.2 && nurpeiilMissedClasses < 3;
         System.out.println(giveNurpeiilCertificate);
 
+        // write a program where you give your age
+        //tell if do you have a passport
+        //return true if age is more than 16
+        //and you have passport
+
+
+        int yourAge = 29;
+        boolean doesMeHavePassport = true;// ==> with
+        //avoid writing true == true type of comparison.
+        //doesMeHavePassport can be used by itself.
+        boolean issueDriverLicense = yourAge >16 && doesMeHavePassport == true;
+        System.out.println(issueDriverLicense);
+
+        /* Homework
+        write a program where you give your
+        credit score
+        your marital status
+        number of children
+
+
+        if credit score is more than 680
+        married
+        more than 2 children
+         */
+        boolean giveFamilyHealthInsuranceCoverage;
 
     }
 }

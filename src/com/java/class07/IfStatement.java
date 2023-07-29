@@ -1,7 +1,9 @@
 package com.java.class07;
 
 import java.util.Scanner;
-
+    // if statement is a logical flow control
+//you can write a program that executes certain of the code
+//only in certain conditions
 public class IfStatement {
     public static void main(String[] args) {
 //    if (false){

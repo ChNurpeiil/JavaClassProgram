@@ -1,6 +1,6 @@
 package com.java.class16;
 
-public class WhileLooop {
+public class WhileLoop1 {
     public static void main(String[] args) {
 
         int activellser = 0;

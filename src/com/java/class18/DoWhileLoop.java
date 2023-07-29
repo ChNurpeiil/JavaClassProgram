@@ -1,9 +1,19 @@
-package com.java.homework18;
+package com.java.class18;
 
 import java.util.Scanner;
 
 public class DoWhileLoop {
+
+
     public static void main(String[] args) {
+        int i = 1;
+        do{
+            System.out.println(i);
+            i++;
+        }while (i >= 5);
+
+        System.out.println("========");
+
         Scanner sc = new Scanner(System.in);
         String  choice;
         do {
@@ -39,7 +49,7 @@ public class DoWhileLoop {
                     System.out.println("Please enter valid operation");
 
             }
-            System.out.println( "would you like to more");
+            System.out.println( "would you like to more operations? (Yes / No)");
             choice= sc.next();
         }   while (choice.equalsIgnoreCase("yes"));
     }

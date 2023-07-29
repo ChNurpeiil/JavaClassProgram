@@ -2,7 +2,7 @@ package com.java.class23;
 
 import java.util.Scanner;
 
-public class NewArray {
+public class FindLengthOfEachString {
     public static void main(String[] args) {
        String names [] = new String[5];
 
@@ -17,11 +17,6 @@ public class NewArray {
             System.out.println(names[i] +"=" + names[i].length());
         }
 
-        for (int j = 0; j <= names.length; j++){
-            names[j] = sc.next();
-        }
-        for (int j = 0; j<names.length;j++){
-            System.out.println(names[j]+"="+names[j].length());
-        }
+
     }
 }

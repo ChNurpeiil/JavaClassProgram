@@ -8,7 +8,7 @@ class Bank{
 
     }
     void displayRaterOfInterest(){
-
+        System.out.println("Parent rate of interest");
     }
 }
 
@@ -22,5 +22,5 @@ void takeQuickloan(){
     System.out.println("Child Take quick loan");
     }
 }
-public class DynamicTotallymorphismRealTimeExample {
+public class Bank1 {
 }

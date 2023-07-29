@@ -1,4 +1,4 @@
-package com.java.class27;
+package com.java.class26;
 class Demo{
     Demo(){//Constructor
         System.out.println("From Constructor");
@@ -12,6 +12,6 @@ class Demo{
 public class ConstructorTrickyExample {
     public static void main(String[] args) {
         Demo d = new Demo();
-
+        d.Demo();
     }
 }

@@ -1,4 +1,4 @@
-package homework.java.homework14;
+package homework.java.homework017;
 
 public class homework2 {
 //    Write a program that prints all prime

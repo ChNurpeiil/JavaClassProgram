@@ -1,4 +1,4 @@
-package homework.java.homework13class13;
+package com.java.class13.class13;
 
 import java.util.Scanner;
 //Given 2 int values,

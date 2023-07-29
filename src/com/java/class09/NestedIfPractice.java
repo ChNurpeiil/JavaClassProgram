@@ -13,8 +13,10 @@ public class NestedIfPractice {
 // 4. If age is more than or equal 18 and salary is greater than
 // or equal to 20000 then print you'll get free credit card
 
+
         Scanner input = new Scanner(System.in);
         System.out.println("Enter  your salary");
+
         int salary = input.nextInt();
 
         System.out.println("Enter your age");

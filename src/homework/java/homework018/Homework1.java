@@ -1,8 +1,36 @@
-package homework.java.homework15;
+package homework.java.homework018;
 
 import java.util.Scanner;
+//Write a to take the opening balance and the account
+// name from the user and display the below operations
+// that the user can perform, at the end ask user if they want
+// to perform more operations and then continue
+// the same process until a user enters ‘NO’
 
-public class homework1 {
+//Output
+//Welcome to the ATM Machine
+//Please enter your account opening balance: 1000
+//Please choose the operations you want to perform
+//1) Withdraw
+//2) Deposit
+//3) Check Balance
+//1
+//Please enter the amount you want to withdraw: 500
+//The available balance is: 500
+//Do you want to perform more operations?
+//Press 1 for yes, Press 2 for No
+//1
+//Please choose the operations you want to perform
+//1) Withdraw
+//2) Deposit
+//3) Check Balance
+//2
+//Please enter the amount you want to deposit: 500
+//The available balance is: 1000
+//Do you want to perform more operations?
+//Press 1 for yes, Press 2 for No
+//2
+public class Homework1 {
     private static String operations;
 
     public static void main(String[] args) {

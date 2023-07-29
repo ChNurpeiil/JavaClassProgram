@@ -2,7 +2,7 @@ package homework.java.homework014;
 
 import java.util.Scanner;
 
-public class homework12_3 {
+public class Homework3 {
     public static void main(String[] args) {
 //  Given a string of any length, return a new
 //  string where the last 2 chars, if present,

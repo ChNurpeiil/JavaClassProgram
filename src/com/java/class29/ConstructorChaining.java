@@ -6,16 +6,13 @@ class Vehicle{
 }
 class Car extends Vehicle{
 
-
 }
 class SportsCar extends Car{
     SportsCar(){
-        System.out.println("From SportsCar");
+         System.out.println("From SportsCar");
     }
-
 }
-
-public class ConstructorChaning {
+public class ConstructorChaining {
     public static void main(String[] args) {
 
         SportsCar sportsCar = new SportsCar();

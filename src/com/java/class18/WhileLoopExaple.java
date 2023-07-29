@@ -1,4 +1,4 @@
-package com.java.homework18;
+package com.java.class18;
 
 public class WhileLoopExaple {
     public static void main(String[] args) {
@@ -28,5 +28,6 @@ public class WhileLoopExaple {
             }
             b=b+2;
         }
+        System.out.println("======");
     }
 }

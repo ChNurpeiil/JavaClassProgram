@@ -24,24 +24,25 @@ public class IncrementDecrementExample {
         gasPrice++; //gasPrice = gasPrice +1.0
         System.out.println(gasPrice); //4.99
 
-        double gasPriceAfterIax = gasPrice++;
-        System.out.println(gasPriceAfterIax);
+        double gasPriceAfterTax = gasPrice++;
+        System.out.println(gasPriceAfterTax);
 
 
 
 
 
 
-        //when you have  a post
+        //when you have  a post increment/ decrement
+       //it changes it's own value, but return the old value
         int num = 1;
-        int y = num++;
+        int y = num++;//increment itself, but returns the not incremented value (old  value)
         System.out.println(num); //2
-        System.out.println(y);
+        System.out.println(y);//1
 
         int x = 1;
-        int w = ++x; // increments itself plus return the inc
-        System.out.println(x);
-        System.out.println(w);
+        int w = ++x; // increments itself plus return the incremented value
+        System.out.println(x);//2
+        System.out.println(w);//2
 
 
         int z = 10;
@@ -50,10 +51,12 @@ public class IncrementDecrementExample {
         System.out.println(z);//11
 
         System.out.println(z++);//11 on line where you are post incrementing
-        //the re
-        System.out.println(z); //12
+        //the return value is still going to be old done
+        System.out.println(z); //12 next line where you use the incremented
+       //variable it will return the new value
 
-// post increment/de
+         // post increment/decrement like a friend that gives old clothes
+       //old renews his /her own clothes
         int u = 11;
         int q = u++; // q=11, u=12
         int t = q++;// t=11, q=12
@@ -68,14 +71,26 @@ public class IncrementDecrementExample {
         int ad = ++ab; //ad=52, ab= 52
         System.out.println(ad++); //52
         System.out.println(++ab);//53
+
         int tempVar = ab++;
-        //
+        //System.out.println(tempVar= ab++)
+
         System.out.println(ab++); //53
         System.out.println(ab++); //54
         System.out.println(ab); //55
 
         int il =10;
-        System.out.println(il++); //10
+        System.out.println(il++); // temp =10; il= 11;
+
+         int var = 10;
+       //System.out.println(int temp = var++); //temp = 10, var 11;
+       System.out.println(var++);
+       System.out.println(var);
+
+
+
+
+
 
 
 

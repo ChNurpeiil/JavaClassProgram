@@ -1,8 +1,8 @@
-package com.java.homework.homework20;
+package homework.java.homework20;
 
 import java.util.Scanner;
 
-public class homework3 {
+public class Homework3 {
     public static void main(String[] args) {
 //   3. Write a program to print the sum of each digit from the given number
 //Example1
@@ -21,5 +21,7 @@ public class homework3 {
             num = num / 10;
         }
         System.out.println(sum);
+
+
     }
 }

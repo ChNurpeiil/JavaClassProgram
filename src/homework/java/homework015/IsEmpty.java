@@ -1,6 +1,7 @@
-package homework.java.homework13class13;
+package homework.java.homework015;
 
-public class isEmpty {
+public class IsEmpty {
+
     public static void main(String[] args) {
         String test1 = "";
         System.out.println(test1.isEmpty());

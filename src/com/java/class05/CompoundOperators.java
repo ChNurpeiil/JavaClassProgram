@@ -1,8 +1,13 @@
 package com.java.class05;
-//**
-// * Compound Operators are easy way to use the current value of a variable
-
-
+/** Compound Operators are easy way to use the current value of a variable
+* and add, substruct, multiple or divide by a new value and
+ * reassign the resulting value info the original variable
+ *
+ * the only use case for compound operators is clean code
+ * you avoid typing the variable name twice for the calculation
+ *
+ * less code is always a better code
+*/
 
 public class CompoundOperators {
     public static void main(String[] args) {
@@ -38,7 +43,7 @@ public class CompoundOperators {
 
         int number0fChicken =100;
         number0fChicken+=50;
-        System.out.println(number0fChicken);
+        System.out.println(number0fChicken);//150
 
         number0fChicken*=2; // number0fChicken = number0fChicken*2
         System.out.println(number0fChicken); //300

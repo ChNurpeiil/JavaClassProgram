@@ -1,4 +1,4 @@
-package com.java.homework18;
+package com.java.class18;
 
 import java.util.Scanner;
 
